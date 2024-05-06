@@ -1,47 +1,28 @@
 # 🛠️ Biblioteca de Utilitários em Python - Utilitarios 
 
-Olá, programadores! Estou animado para compartilhar com vocês a biblioteca de utilitários que desenvolvi em Python. Ela é projetada para tornar seu dia a dia de codificação mais eficiente e agradável.
-
 ## 🌟 Recursos 
 
-A biblioteca Utilitarios inclui uma variedade de funções úteis, desde operações básicas de arquivos até funções mais complexas, como:
+A biblioteca Utilitarios inclui uma variedade de funções úteis, desde operações básicas de arquivos até funções mais complexas.
 
-### Operações de arquivo
-- Ler e escrever arquivos e JSONs
-- Listar arquivos em um diretório
-- Criar um novo diretório
+## 💡 Como Instalar 
 
-### Funções de rede
-- Fazer uma requisição GET para uma URL e retornar a resposta como JSON
+Para instalar a biblioteca Utilitarios, você pode clonar este repositório para o seu ambiente local. Aqui estão as etapas:
 
-### Funções de texto
-- Gerar um hash de uma string
-- Encontrar todas as ocorrências de um padrão em um texto usando expressões regulares
+1. Abra o terminal.
+2. Navegue até o diretório onde deseja clonar o repositório.
+3. Execute o seguinte comando: `git clone <URL do repositório>`
 
-### Funções de lista
-- Remover itens duplicados de uma lista
-- Ordenar uma lista em ordem crescente ou decrescente
+## 🚀 Como Usar 
 
-### Funções de data
-- Formatar uma data para uma string
-- Obter a data atual
+Depois de clonar o repositório, você pode importar a biblioteca Utilitarios em seu código Python e começar a usar suas funções imediatamente. Aqui está um exemplo:
 
-### Funções matemáticas
-- Calcular o n-ésimo número na sequência de Fibonacci
-
-## 💡 Como usar 
-
-Você pode importar a biblioteca Utilitarios em seu código Python e começar a usar suas funções imediatamente. Aqui está um exemplo:
-
-```
+```python
 from utilitarios import Utilitarios
 
 # Ler um arquivo
-conteudo = Utilitarios.ler_arquivo('meu_arquivo.txt')
+conteudo = Utilitarios.ler_arquivo('arquivo.txt')
+print(conteudo)
 
-# Fazer uma requisição GET
-resposta = Utilitarios.fazer_requisicao_get('https://meu-site.com/api/dados')
-
-# Remover itens duplicados de uma lista
-lista_unica = Utilitarios.remover_duplicados([1, 2, 2, 3, 3, 3])
-
+# Fazer uma requisição GET e retornar a resposta como JSON
+resposta = Utilitarios.requisicao_get('https://api.meusite.com')
+print(resposta)
