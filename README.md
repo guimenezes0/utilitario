@@ -10,7 +10,7 @@ Para instalar a biblioteca Utilitarios, você pode clonar este repositório para
 
 1. Abra o terminal.
 2. Navegue até o diretório onde deseja clonar o repositório.
-3. Execute o seguinte comando: `git clone <URL do repositório>`
+3. Execute o seguinte comando: `git clone (https://github.com/guimenezes0/utilitario.git)`
 
 ## 🚀 Como Usar 
 
